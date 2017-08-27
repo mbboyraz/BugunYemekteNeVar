@@ -13,7 +13,9 @@
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
-        android:titleTextColor="#fff"></android.support.v7.widget.Toolbar>
+        android:titleTextColor="#fff">
+
+    </android.support.v7.widget.Toolbar>
 
 
     <android.support.v7.widget.RecyclerView

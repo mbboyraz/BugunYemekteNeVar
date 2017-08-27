@@ -5,6 +5,7 @@
     <item
         android:id="@+id/action_about_us"
         android:showAsAction="never"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
         android:title="Hakkımızda">
 
     </item>
