@@ -9,6 +9,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
     <style name="spinnerItemStyle">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Subhead</item>
         <item name="android:background">@drawable/spinner_border</item>

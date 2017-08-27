@@ -12,6 +12,25 @@ public class AboutUsVM {
     public String person_name;
     public String person_information;
     public String github, linkedin;
+    public String linkedin_link;
+    public String github_link;
+
+    public String getGithub_link() {
+        return github_link;
+    }
+
+    public void setGithub_link(String github_link) {
+        this.github_link = github_link;
+    }
+
+    public String getLinkedin_link() {
+        return linkedin_link;
+    }
+
+    public void setLinkedin_link(String linkedin_link) {
+        this.linkedin_link = linkedin_link;
+    }
+
 
     public int getPerson_photo() {
         return person_photo;

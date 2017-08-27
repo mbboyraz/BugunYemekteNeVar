@@ -44,9 +44,9 @@ public class RecyclerAboutUsAdapter extends RecyclerView.Adapter<RecyclerAboutUs
         holder.github.setText(selectedAboutUsVM.getGithub());
         holder.linkedin.setText(selectedAboutUsVM.getLinkedin());
         holder.person_photo.setImageResource(selectedAboutUsVM.getPerson_photo());
-        holder.github.setTag(selectedAboutUsVM.getGithub());
+        holder.github.setTag(selectedAboutUsVM.getGithub_link());
         holder.github.setOnClickListener(this);
-        holder.linkedin.setTag(selectedAboutUsVM.getLinkedin());
+        holder.linkedin.setTag(selectedAboutUsVM.getLinkedin_link());
         holder.linkedin.setOnClickListener(this);
     }
 

@@ -21,9 +21,11 @@ public class DeveloperInformationData {
 
         AboutUsVM aboutUsVM = new AboutUsVM();
         aboutUsVM.setPerson_name("Hülya ÇETİN");
-        aboutUsVM.setPerson_information("Çanakkale Onsekiz Mart Üniversitesi");
-        aboutUsVM.setGithub("https://github.com/hulyacetin");
-        aboutUsVM.setLinkedin("https://www.linkedin.com/in/h%C3%BClya-%C3%A7etin-794799136/");
+        aboutUsVM.setPerson_information("Çanakkale Onsekiz Mart Üniversitesi Bilgisayar Mühendisliği");
+        aboutUsVM.setGithub("Github'u Gör");
+        aboutUsVM.setLinkedin("Linkedin'i Gör");
+        aboutUsVM.setGithub_link("https://github.com/hulyacetin");
+        aboutUsVM.setLinkedin_link("https://www.linkedin.com/in/h%C3%BClya-%C3%A7etin-794799136/");
         aboutUsVM.setPerson_photo(girl);
 
         listAboutUs.add(aboutUsVM);
@@ -31,8 +33,10 @@ public class DeveloperInformationData {
         aboutUsVM = new AboutUsVM();
         aboutUsVM.setPerson_name("Musa Burak BOYRAZ");
         aboutUsVM.setPerson_information("İstanbul Üniversitesi Bilgisayar Mühendisliği");
-        aboutUsVM.setLinkedin("https://www.linkedin.com/in/musa-burak-boyraz-24a481116/?ppe=1");
-        aboutUsVM.setGithub("https://github.com/mbboyraz");
+        aboutUsVM.setGithub("Github'u Gör");
+        aboutUsVM.setLinkedin("Linkedin'i Gör");
+        aboutUsVM.setLinkedin_link("https://www.linkedin.com/in/musa-burak-boyraz-24a481116/?ppe=1");
+        aboutUsVM.setGithub_link("https://github.com/mbboyraz");
         aboutUsVM.setPerson_photo(boy);
 
         listAboutUs.add(aboutUsVM);
