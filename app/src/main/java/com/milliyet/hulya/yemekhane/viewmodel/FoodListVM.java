@@ -2,10 +2,6 @@ package com.milliyet.hulya.yemekhane.viewmodel;
 
 import java.io.Serializable;
 
-/**
- * Created by hulya on 14.08.2017.
- */
-
 public class FoodListVM implements Serializable {
 
     private String foodType;

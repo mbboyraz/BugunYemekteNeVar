@@ -1,8 +1,5 @@
 package com.milliyet.hulya.yemekhane.controller;
 
-/**
- * Created by mbura on 24.08.2017.
- */
 
 import android.app.Application;
 
