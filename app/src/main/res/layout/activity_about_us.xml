@@ -6,6 +6,16 @@
     android:orientation="vertical"
     tools:context="com.example.hulya.yemekhane.ui.AboutUsActivity">
 
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_about_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#fff"></android.support.v7.widget.Toolbar>
+
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/about_us_recyclerview"
         android:layout_width="match_parent"

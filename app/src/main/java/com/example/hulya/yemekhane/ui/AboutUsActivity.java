@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 
 import com.example.hulya.yemekhane.R;
 import com.example.hulya.yemekhane.adapter.RecyclerAboutUsAdapter;
@@ -20,6 +21,7 @@ import java.util.ArrayList;
 
 public class AboutUsActivity extends AppCompatActivity {
     private final LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+    Toolbar toolbar_aboutus;
     private RecyclerView recyclerViewAboutUs = null;
     private ArrayList<AboutUsVM> listAboutUs = null;
     private RecyclerAboutUsAdapter recyclerAboutUsAdapter = null;
@@ -29,7 +31,9 @@ public class AboutUsActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
-
+        toolbar_aboutus = (Toolbar) findViewById(R.id.toolbar_about_us);
+        toolbar_aboutus.setTitle("Hakkımızda");
+        toolbar_aboutus.setTitleTextColor(getResources().getColor(R.color.color_toolbar_title));
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         aboutUsLayoutManager = new LinearLayoutManager(this);
         initview();
