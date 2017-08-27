@@ -30,7 +30,8 @@
             <com.android.volley.toolbox.NetworkImageView
                 android:id="@+id/network_image_food1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
 
             <TextView
                 android:id="@+id/txtfood1"
@@ -66,7 +67,8 @@
             <com.android.volley.toolbox.NetworkImageView
                 android:id="@+id/network_image_food2"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
 
             <TextView
                 android:id="@+id/txtfood2"
@@ -101,7 +103,8 @@
             <com.android.volley.toolbox.NetworkImageView
                 android:id="@+id/network_image_food3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
 
             <TextView
                 android:id="@+id/txtfood3"

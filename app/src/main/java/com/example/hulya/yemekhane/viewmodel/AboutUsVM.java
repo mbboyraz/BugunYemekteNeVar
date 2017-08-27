@@ -11,9 +11,25 @@ public class AboutUsVM {
     public int person_photo;
     public String person_name;
     public String person_information;
-    public String github, linkedin;
     public String linkedin_link;
     public String github_link;
+    public int icon_github, icon_linkedin;
+
+    public int getIcon_github() {
+        return icon_github;
+    }
+
+    public void setIcon_github(int icon_github) {
+        this.icon_github = icon_github;
+    }
+
+    public int getIcon_linkedin() {
+        return icon_linkedin;
+    }
+
+    public void setIcon_linkedin(int icon_linkedin) {
+        this.icon_linkedin = icon_linkedin;
+    }
 
     public String getGithub_link() {
         return github_link;
@@ -56,19 +72,4 @@ public class AboutUsVM {
         this.person_information = person_information;
     }
 
-    public String getGithub() {
-        return github;
-    }
-
-    public void setGithub(String github) {
-        this.github = github;
-    }
-
-    public String getLinkedin() {
-        return linkedin;
-    }
-
-    public void setLinkedin(String linkedin) {
-        this.linkedin = linkedin;
-    }
 }

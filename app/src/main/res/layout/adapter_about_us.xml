@@ -17,7 +17,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="65dp">
+            android:background="@color/cardview_shadow_start_color"
+            android:padding="40dp">
 
             <ImageView
                 android:id="@+id/activity_about_us_imageview_person_photo1"
@@ -34,7 +35,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_toRightOf="@+id/activity_about_us_imageview_person_photo1"
                 android:text="Hülya Çetin"
-                android:textSize="30sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <TextView
@@ -43,27 +44,28 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/activity_about_us_textview_person_name1"
                 android:layout_toRightOf="@+id/activity_about_us_imageview_person_photo1"
-                android:textSize="20dp" />
+                android:textSize="12dp" />
 
-            <TextView
-                android:id="@+id/activity_about_us_textview_github1"
-                android:layout_width="match_parent"
+
+            <ImageView
+                android:id="@+id/activity_about_us_imageview_github"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/activity_about_us_textview_person_information1"
                 android:layout_toRightOf="@+id/activity_about_us_imageview_person_photo1"
                 android:clickable="true"
-                android:onClick="onClick"
-                android:textSize="20dp" />
+                android:onClick="onClick" />
 
-            <TextView
-                android:id="@+id/activity_about_us_textview_linkedin1"
-                android:layout_width="match_parent"
+
+            <ImageView
+                android:id="@+id/activity_about_us_imageview_linkedin"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/activity_about_us_textview_github1"
-                android:layout_toRightOf="@+id/activity_about_us_imageview_person_photo1"
+                android:layout_below="@+id/activity_about_us_textview_person_information1"
+                android:layout_toRightOf="@+id/activity_about_us_imageview_github"
                 android:clickable="true"
-                android:onClick="onClick"
-                android:textSize="20dp" />
+                android:onClick="onClick" />
+
 
         </RelativeLayout>
 

@@ -41,26 +41,26 @@ public class RecyclerAboutUsAdapter extends RecyclerView.Adapter<RecyclerAboutUs
         AboutUsVM selectedAboutUsVM = getItem(position);
         holder.person_name.setText(selectedAboutUsVM.getPerson_name());
         holder.person_information.setText(selectedAboutUsVM.getPerson_information());
-        holder.github.setText(selectedAboutUsVM.getGithub());
-        holder.linkedin.setText(selectedAboutUsVM.getLinkedin());
         holder.person_photo.setImageResource(selectedAboutUsVM.getPerson_photo());
-        holder.github.setTag(selectedAboutUsVM.getGithub_link());
-        holder.github.setOnClickListener(this);
-        holder.linkedin.setTag(selectedAboutUsVM.getLinkedin_link());
-        holder.linkedin.setOnClickListener(this);
+        holder.icon_github.setImageResource(selectedAboutUsVM.getIcon_github());
+        holder.icon_linkedin.setImageResource(selectedAboutUsVM.getIcon_linkedin());
+        holder.icon_github.setTag(selectedAboutUsVM.getGithub_link());
+        holder.icon_github.setOnClickListener(this);
+        holder.icon_linkedin.setTag(selectedAboutUsVM.getLinkedin_link());
+        holder.icon_linkedin.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
 
         switch (view.getId()) {
-            case R.id.activity_about_us_textview_github1:
+            case R.id.activity_about_us_imageview_github:
                 link = (String) view.getTag();
                 Uri link1 = Uri.parse(link);
                 Intent intent1 = new Intent(Intent.ACTION_VIEW, link1);
                 view.getContext().startActivity(intent1);
                 break;
-            case R.id.activity_about_us_textview_linkedin1:
+            case R.id.activity_about_us_imageview_linkedin:
                 link = (String) view.getTag();
                 Uri link2 = Uri.parse(link);
                 Intent intent2 = new Intent(Intent.ACTION_VIEW, link2);
