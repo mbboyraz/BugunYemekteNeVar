@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/splash_screen"
     android:orientation="vertical"
-    tools:context="com.example.hulya.yemekhane.ui.RecyclerViewActivity">
+    tools:context="com.milliyet.hulya.yemekhane.ui.RecyclerViewActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"

@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.hulya.yemekhane.ui.AboutUsActivity">
+    tools:context="com.milliyet.hulya.yemekhane.ui.AboutUsActivity">
 
 
     <android.support.v7.widget.Toolbar

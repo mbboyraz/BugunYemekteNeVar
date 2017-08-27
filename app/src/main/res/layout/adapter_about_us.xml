@@ -34,7 +34,6 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_toRightOf="@+id/activity_about_us_imageview_person_photo1"
-                android:text="Hülya Çetin"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -44,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/activity_about_us_textview_person_name1"
                 android:layout_toRightOf="@+id/activity_about_us_imageview_person_photo1"
-                android:textSize="12dp" />
+                android:textSize="12sp" />
 
 
             <ImageView
@@ -53,8 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/activity_about_us_textview_person_information1"
                 android:layout_toRightOf="@+id/activity_about_us_imageview_person_photo1"
-                android:clickable="true"
-                android:onClick="onClick" />
+                android:clickable="true" />
 
 
             <ImageView
@@ -63,8 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/activity_about_us_textview_person_information1"
                 android:layout_toRightOf="@+id/activity_about_us_imageview_github"
-                android:clickable="true"
-                android:onClick="onClick" />
+                android:clickable="true" />
 
 
         </RelativeLayout>

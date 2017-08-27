@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hulya.yemekhane">
+    package="com.milliyet.hulya.yemekhane">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".controller.AppController"
+        android:name="com.milliyet.hulya.yemekhane.controller.AppController"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
@@ -13,11 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.RecyclerViewActivity"
+            android:name="com.milliyet.hulya.yemekhane.ui.RecyclerViewActivity"
             android:screenOrientation="portrait">
 
         </activity>
-        <activity android:name=".ui.SplashScreenActivity">
+        <activity android:name="com.milliyet.hulya.yemekhane.ui.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.AboutUsActivity"
+            android:name="com.milliyet.hulya.yemekhane.ui.AboutUsActivity"
             android:screenOrientation="portrait"></activity>
     </application>
 

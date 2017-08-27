@@ -5,7 +5,7 @@
     style="@style/splash_screen_style"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hulya.yemekhane.ui.SplashScreenActivity">
+    tools:context="com.milliyet.hulya.yemekhane.ui.SplashScreenActivity">
 
     <com.felipecsl.gifimageview.library.GifImageView
         android:id="@+id/garfield"
