@@ -31,9 +31,6 @@ public class AboutUsActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about_us);
-        toolbar_aboutus = (Toolbar) findViewById(R.id.toolbar_about_us);
-        toolbar_aboutus.setTitle("Hakkımızda");
-        toolbar_aboutus.setTitleTextColor(getResources().getColor(R.color.color_toolbar_title));
         layoutManager.setOrientation(LinearLayoutManager.VERTICAL);
         aboutUsLayoutManager = new LinearLayoutManager(this);
         initview();
@@ -49,6 +46,12 @@ public class AboutUsActivity extends AppCompatActivity {
         recyclerViewAboutUs.setAdapter(recyclerAboutUsAdapter);
         recyclerViewAboutUs.setLayoutManager(layoutManager);
         recyclerViewAboutUs.setItemAnimator(new DefaultItemAnimator());
+        toolbar_aboutus = (Toolbar) findViewById(R.id.toolbar_about_us);
+        toolbar_aboutus.setTitle("Hakkımızda");
+        toolbar_aboutus.setTitleTextColor(getResources().getColor(R.color.color_toolbar_title));
+
+
+
 
 
     }
