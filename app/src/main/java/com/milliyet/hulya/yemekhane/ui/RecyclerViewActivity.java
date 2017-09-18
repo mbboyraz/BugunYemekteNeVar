@@ -73,7 +73,7 @@ public class RecyclerViewActivity extends AppCompatActivity implements SwipeRefr
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycler_view);
         initView();
-
+        //Fabric.with();
         setSupportActionBar(toolbar);
         toolbar.setTitleTextColor(Color.WHITE);
 
@@ -211,6 +211,7 @@ public class RecyclerViewActivity extends AppCompatActivity implements SwipeRefr
                 foodListVM.setFoodType("BAŞLANGIÇ");
                 foodListVM.setFoodName1(dataSnapshot.child("Entree1").getValue().toString());
                 foodListVM.setFoodName2(dataSnapshot.child("Entree2").getValue().toString());
+                foodListVM.setFoodName3(dataSnapshot.child("Entree3").getValue().toString());
                 if (TextUtils.isEmpty(dataSnapshot.child("Entree1").getValue().toString())) {
                     foodListVM.setFoodNetworkImageLink1(null);
                 } else {

@@ -27,6 +27,10 @@
         <activity
             android:name="com.milliyet.hulya.yemekhane.ui.AboutUsActivity"
             android:screenOrientation="portrait"></activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="eb7e7a0caac3b9505f8b2af55bdc969358b09b24" />
     </application>
 
 </manifest>

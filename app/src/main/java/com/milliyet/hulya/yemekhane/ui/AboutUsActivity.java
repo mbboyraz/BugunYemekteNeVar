@@ -45,7 +45,7 @@ public class AboutUsActivity extends AppCompatActivity {
         recyclerViewAboutUs.setItemAnimator(new DefaultItemAnimator());
         toolbar_aboutus = (Toolbar) findViewById(R.id.toolbar_about_us);
         toolbar_aboutus.setTitle("Hakkımızda");
-        toolbar_aboutus.setTitleTextColor(getResources().getColor(R.color.color_toolbar_title));
+        toolbar_aboutus.setTitleTextColor(getResources().getColor(R.color.color_toolbar_title, null));
 
 
 

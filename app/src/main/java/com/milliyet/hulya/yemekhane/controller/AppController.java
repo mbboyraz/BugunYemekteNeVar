@@ -6,7 +6,10 @@ import android.app.Application;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
+import com.crashlytics.android.Crashlytics;
 import com.milliyet.hulya.yemekhane.utils.LruBitmapCache;
+
+import io.fabric.sdk.android.Fabric;
 
 public class AppController extends Application {
 
@@ -23,6 +26,7 @@ public class AppController extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        Fabric.with(this, new Crashlytics());
         mInstance = this;
     }
 

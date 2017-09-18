@@ -116,6 +116,7 @@ public class SplashScreenActivity extends Activity {
                 foodListVM.setFoodType("BAŞLANGIÇ");
                 foodListVM.setFoodName1(dataSnapshot.child("Entree1").getValue().toString());
                 foodListVM.setFoodName2(dataSnapshot.child("Entree2").getValue().toString());
+                foodListVM.setFoodName3(dataSnapshot.child("Entree3").getValue().toString());
                 if (TextUtils.isEmpty(dataSnapshot.child("Entree1").getValue().toString())) {
                     foodListVM.setFoodNetworkImageLink1(null);
                 } else {
