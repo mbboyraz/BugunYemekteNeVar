@@ -1,5 +1,6 @@
 package com.milliyet.hulya.yemekhane.ui;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -45,7 +46,8 @@ public class AboutUsActivity extends AppCompatActivity {
         recyclerViewAboutUs.setItemAnimator(new DefaultItemAnimator());
         toolbar_aboutus = (Toolbar) findViewById(R.id.toolbar_about_us);
         toolbar_aboutus.setTitle("Hakkımızda");
-        toolbar_aboutus.setTitleTextColor(getResources().getColor(R.color.color_toolbar_title, null));
+        toolbar_aboutus.setTitleTextColor(Color.WHITE);
+
 
 
 
